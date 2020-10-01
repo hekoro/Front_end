@@ -1,0 +1,8 @@
+1) A partir do layout chapado contido no arquivo dashboard.jpg, criar uma prévia de layout para um site, já em html / css e tecnologias correlatas. Colocar todos os arquivos utilizados dentro de um diretório de forma ao abrir o arquivo .html em um browser, funcione normalmente. Pode utilizar as tecnologias css/javascript de mercado, a exemplo do Bootstrap e Jquery.
+
+
+
+
+
+
+

@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="utf-8">
+   <title>Teste Essência Digital</title>
+
+   <link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <nav class="navbar navbar-dark p-0" style="background-color: #1f262e;">
+      <a id="welcome" class="navbar-brand px-3" href="#"><i class="fa fa-user" aria-hidden="true"></i>
+         Welcome User <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </a>
+      <a id="settings" class="navbar-brand px-3" href="#"><i class="fa fa-cog" aria-hidden="true"></i>
+         Settings</a>
+      <a id="logout" class="navbar-brand px-3" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>
+         Logout</a>
+      <input id="search" class="col-md-1 col-11 col-sm-auto border-0 m-0 text-left" type="text" placeholder="Search here..."
+         aria-label="Search">
+      <i id="lupa" class="fa fa-search mr-3" aria-hidden="true"></i>
+
+   </nav>
+
+   <div class="container-fluid">
+      <div class="row ">
+         <nav class="col-md-3 col-lg-2 px-0 d-md-block sidebar naav">
+            <div class="sidebar-sticky">
+               <div style="height: 50px; background-color: #1f262e;">
+
+               </div>
+               <ul class="nav flex-column">
+                  <li class="nav-item bg-dark navb">
+                     <a class="nav-link" href="#">
+                        <span data-feather="home"></span>
+                        <i class="mr-2 fa fa-home"></i>
+                        Dashboard <span class="sr-only">(current)</span>
+                     </a>
+                  </li>
+                  <hr class="mt-0 mb-0 w-100">
+                  <li class="nav-item navb">
+                     <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        <i class="mr-2 fa fa-arrows-alt" aria-hidden="true"></i>
+                        Full width
+
+                     </a>
+                  </li>
+                  <li class="nav-item navb">
+                     <a class="nav-link" href="#"> <i class="mr-2 fa fa-archive" aria-hidden="true"></i>
+                        Forms <span class="float-right badge badge-danger">3</span></a>
+                  </li>
+                  <li class="nav-item navb">
+                     <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        <i class="mr-2 fa fa-pencil" aria-hidden="true"></i>
+                        Elements
+                     </a>
+                  </li>
+                  <li class="nav-item navb active">
+                     <a class="nav-link" href="#"> <i class="mr-2 fa fa-file-o" aria-hidden="true"></i> Addons <span
+                           class="float-right badge badge-danger">5</span>
+
+                     </a>
+                  </li>
+               </ul>
+               </ul>
+            </div>
+         </nav>
+
+         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pl-0 pr-0">
+            <div class="pl-2 d-flex align-items-center pt-2 pb-2 border-bottom topo">
+               <i class="fa fa-home" aria-hidden="true"></i>
+               <h1 class="ml-2 pt-2 topo align-items-center">Home</h1>
+               <div class="btn-toolbar mb-2 mb-md-0">
+               </div>
+            </div>
+            <div class="centro pt-4 pl-3 pr-3">
+               <button id="dashboard" class="mb-2 ml-1 pr-3 pl-3 pt-2 pb-2 border-0" type="button"> <i
+                     class="fa fa-tachometer fa-2x" aria-hidden="true"></i>
+                  <br> My Dashboard
+               </button>
+               <button id="shoppingcart" class="ml-1 pr-3 pl-3 pt-2 pb-2 border-0" type="button"><i
+                     class="fa fa-shopping-cart fa-2x"></i>
+                  <br> Shopping Cart
+               </button>
+               <button id="webmarketing" class="ml-1 pr-3 pl-3 pt-2 pb-2 border-0" type="button"><i
+                     class="fa fa-globe fa-2x" aria-hidden="true"></i>
+                  <br> Web Marketing
+               </button>
+               <button id="users" class="ml-1 pr-3 pl-3 pt-2 pb-2 border-0" type="button"><i class="fa fa-users fa-2x"
+                     aria-hidden="true"></i>
+
+                  <br>
+                  Manage Users
+               </button>
+               <button id="statistics" class="ml-2 pr-3 pl-2 pt-2 pb-2 border-0" type="button"><i
+                     class="fa fa-signal fa-2x" aria-hidden="true"></i>
+                  <br> Check Statistics
+               </button>
+               <div class="container-full mt-4">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <div class="card border mb-3 p-0 rounded-0">
+                           <div class="card-header p-0 d-flex">
+                              <div class="p-2 border-right">
+                                 <i class="fa fa-angle-down font-weight-bold p-1" aria-hidden="true"></i>
+                              </div>
+                              <div class="p-2 font-weight-bold">
+                                 <h6 class="mb-0">Latest Posts</h6>
+                              </div>
+                           </div>
+                           <ul class="list-group list-group-flush">
+                              <li class="list-group-item pl-0">
+                                 <div class="d-flex">
+                                    <div class="d-flex">
+                                       <div class="d-flex justify-content-center align-items-center">
+                                          <img class="crown " src="images/Crown.bmp">
+                                       </div>
+                                       <div class="mb-0 pb-0">
+                                          <p class="mb-0 pb-0 card-text">By John Deo / Date: 2 Aug 2012 / Time: 09:27 AM
+                                             <br>
+                                             This is a much longer one that will go on for a few lines. It has
+                                             Multiple
+                                             paragraphs and is full of waffle to pad out the comment
+                                          </p>
+                                          <p class="mb-0 pb-0 card-text">many many happy returns of the day</p>
+                                       </div>
+                                    </div>
+                              </li>
+                              <li class="list-group-item pl-0">
+                                 <div class="d-flex">
+                                    <div class="d-flex">
+                                       <div class="d-flex justify-content-center align-items-center">
+                                          <img class="crown " src="images/Crown Azul.bmp">
+                                       </div>
+                                       <div class="mb-0 pb-0">
+                                          <p class="mb-0 pb-0 card-text">By John Deo / Date: 2 Aug 2012 / Time: 09:27 AM
+                                             <br>
+                                             This is a much longer one that will go on for a few lines. It has
+                                             Multiple
+                                             paragraphs and is full of waffle to pad out the comment
+                                          </p>
+                                          <p class="mb-0 pb-0 card-text">many many happy returns of the day</p>
+                                       </div>
+                                    </div>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="card border mb-5 p-0 rounded-0">
+                           <div class="card-header p-0 d-flex">
+                              <div class="p-2 border-right">
+                                 <i class="fa fa-check p-1" aria-hidden="true"></i>
+                              </div>
+                              <div class="p-2 font-weight-bold">
+                                 <h6 class="mb-0">To do list</h6>
+                              </div>
+                           </div>
+                           <ul class="list-group list-group-flush">
+                              <li class="list-group-item ">
+                                 <div class="d-flex">
+                                    <div>
+                                       <p class="card-text p-1">Luanch This theme on Themeforest<span
+                                             class="badge badge-pill badge-danger ml-2">Today</span></p>
+                                    </div>
+                                    <div class="ml-auto align-items-center flex-column justify-content-center">
+                                       <i class="fa fa-times float-right mt-2 mr-2" aria-hidden="true"></i>
+                                       <i class="fa fa-pencil float-right mt-2 mr-2 " aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item ">
+                                 <div class="d-flex">
+                                    <div>
+                                       <p class="card-text p-1">Manage Pending Orders<span
+                                             class="badge badge-pill badge-warning ml-2">Today</span></p>
+                                    </div>
+                                    <div class="ml-auto align-items-center flex-column justify-content-center">
+                                       <i class="fa fa-times float-right mt-2 mr-2" aria-hidden="true"></i>
+                                       <i class="fa fa-pencil float-right mt-2 mr-2 " aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item ">
+                                 <div class="d-flex">
+                                    <div>
+                                       <p class="card-text p-1">Make your desk clean<span
+                                             class="badge badge-pill badge-success ml-2">Tomorrow</span></p>
+                                    </div>
+                                    <div class="ml-auto align-items-center flex-column justify-content-center">
+                                       <i class="fa fa-times float-right mt-2 mr-2" aria-hidden="true"></i>
+                                       <i class="fa fa-pencil float-right mt-2 mr-2 " aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item ">
+                                 <div class="d-flex">
+                                    <div>
+                                       <p class="card-text p-1">Today we celebrate the great looking theme<span
+                                             class="badge badge-pill badge-info ml-2">08.03.2013</span></p>
+                                    </div>
+                                    <div class="ml-auto align-items-center flex-column justify-content-center">
+                                       <i class="fa fa-times float-right mt-2 mr-2" aria-hidden="true"></i>
+                                       <i class="fa fa-pencil float-right mt-2 mr-2 " aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </li>
+                              <li class="list-group-item ">
+                                 <div class="d-flex">
+                                    <div>
+                                       <p class="card-text p-1">Manage all the orders<span
+                                             class="badge badge-pill badge-info ml-2">12.03.2013</span></p>
+                                    </div>
+                                    <div class="ml-auto align-items-center flex-column justify-content-center">
+                                       <i class="fa fa-times float-right mt-2 mr-2" aria-hidden="true"></i>
+                                       <i class="fa fa-pencil float-right mt-2 mr-2 " aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-md-6 pr-3">
+                        <div class="card p-0 rounded-0">
+                           <div class="card-header border-0 p-0 d-flex">
+                              <div class="p-2 border-right">
+                                 <i class="fa fa-angle-down font-weight-bold p-1" aria-hidden="true"></i>
+                              </div>
+                              <div class="p-2 font-weight-bold">
+                                 <h6 class="mb-0">New Updates</h6>
+                              </div>
+                           </div>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           <li class="list-group-item border-right border-left">
+                              <div class="d-flex">
+                                 <div class="d-flex">
+                                    <div>
+                                       <i class="mr-3 fa fa-check-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="mb-0 pb-0">
+                                       <p class="font-weight-bold mb-0 pb-0 card-text">Lorem ipsum dolor sit amet,
+                                          consectetur adipiscong elit.
+                                       </p>
+                                       <p class="mb-0 pb-0 card-text">dolor sit amet, consectetur adipiscong eli</p>
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="ml-auto text-secondary d-flex align-items-center flex-column justify-content-center">
+                                    <div class="float-right">
+                                       <h5 class="mb-0 ">20</h5>
+                                    </div>
+                                    <div>
+                                       <h6 class="mb-0">Jan</h6>
+                                    </div>
+                                 </div>
+                              </div>
+                           <li class="list-group-item border-right border-left">
+                              <div class="d-flex">
+                                 <div class="d-flex">
+                                    <div>
+                                       <i class="mr-3 fa fa-gift" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="mb-0 pb-0">
+                                       <p class="font-weight-bold mb-0 pb-0 card-text">Congratulation Maruti, Happy
+                                          Birthday
+                                       </p>
+                                       <p class="mb-0 pb-0 card-text">many many happy returns of the day</p>
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="ml-auto text-secondary d-flex align-items-center flex-column justify-content-center">
+                                    <div class="float-right">
+                                       <h5 class="mb-0 ">11</h5>
+                                    </div>
+                                    <div>
+                                       <h6 class="mb-0">Jan</h6>
+                                    </div>
+                                 </div>
+                           <li class="list-group-item border-right border-left">
+                              <div class="d-flex">
+                                 <div class="d-flex">
+                                    <div>
+                                       <i class="mr-3 fa fa-arrows" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="mb-0 pb-0">
+                                       <p class="font-weight-bold mb-0 pb-0 card-text">Maruti is a responsive Admin
+                                          theme
+                                       </p>
+                                       <p class="mb-0 pb-0 card-text">but already everything was solved.It will ...</p>
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="ml-auto text-secondary d-flex align-items-center flex-column justify-content-center">
+                                    <div class="float-right">
+                                       <h5 class="mb-0 ">07</h5>
+                                    </div>
+                                    <div>
+                                       <h6 class="mb-0">Jan</h6>
+                                    </div>
+                                 </div>
+                              </div>
+                           <li class="list-group-item border-right border-left">
+                              <div class="d-flex">
+                                 <div class="d-flex">
+                                    <div>
+                                       <i class="mr-3 fa fa-leaf" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="mb-0 pb-0">
+                                       <p class="font-weight-bold mb-0 pb-0 card-text">Envato approved Maruti Admin
+                                          template</p>
+                                       <p class="mb-0 pb-0 card-text">i am very happy to approved by TF</p>
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="ml-auto text-secondary d-flex align-items-center flex-column justify-content-center">
+                                    <div class="float-right">
+                                       <h5 class="mb-0 ">05</h5>
+                                    </div>
+                                    <div>
+                                       <h6 class="mb-0">Jan</h6>
+                                    </div>
+                                 </div>
+                              </div>
+                           <li class="list-group-item border-right border-left">
+                              <div class="d-flex">
+                                 <div class="d-flex">
+                                    <div>
+                                       <i class="mr-3 fa fa-question-circle" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="mb-0 pb-0">
+                                       <p class="font-weight-bold mb-0 pb-0 card-text">I am alwayse here if you have any
+                                          question
+                                       </p>
+                                       <p class="mb-0 pb-0 card-text">we glad that you choose our template</p>
+                                    </div>
+                                 </div>
+                                 <div
+                                 class="ml-auto text-secondary d-flex align-items-center flex-column justify-content-center">
+                                 <div class="float-right">
+                                    <h5 class="mb-0 ">01</h5>
+                                 </div>
+                                 <div>
+                                    <h6 class="mb-0">Jan</h6>
+                                 </div>
+                              </div>
+                              </div>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </main>
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+         <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+         <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+         <script src="dashboard.js"></script>
+</body>
+</html>

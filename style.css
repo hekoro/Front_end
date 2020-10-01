@@ -1,0 +1,132 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+::-webkit-input-placeholder {
+    color: gray;
+ }
+
+#search {
+    position: flex;
+    background-color: #47515b;
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#logout {
+    margin-right: auto;
+    border: solid 1.5px #0c1017;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:  #5b6468;
+    font-size: 12px;
+}
+
+#settings {
+    border: solid 1.5px #0c1017;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color:  #5b6468;
+    font-size: 12px;
+}
+#welcome {
+    margin-left: 16.5%;
+    margin-right: 0px;
+    border-left: solid 1.5px #0c1017;
+    color:  #5b6468;
+    font-size: 12px;
+}
+
+#dashboard{
+    background-color: #27a9e3;
+    color: white;
+}
+
+#shoppingcart{
+    background-color: #28b779;
+    color: white;
+}
+
+#webmarketing{
+    background-color: #ffb748;
+    color: white;
+}
+
+#users{
+    background-color: #da542e;
+    color: white;
+}
+#statistics{
+    background-color: #2255a4;
+    color: white;
+}
+
+.centro{
+    background-color: #eeeeee;
+}
+
+.navb {
+    border-bottom: solid 1.5px #0c1017;
+
+    a{
+
+    }
+}
+
+.naav{
+    background-color: #2e3740;
+}
+
+.nav-link{
+    color:  #5b6468;
+    font-size: smaller;
+}
+
+#lupa{
+    color:  white;
+    z-index: 1;
+    background-color: #28b779;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.topo{
+    color:  #5b6468;
+    font-size: 12px;
+    
+}
+
+.list-group{
+    font-size: 12px;
+}
+
+.list-group-item{
+    border-right: 1px;
+    border-left: 1px;
+}
+.badge{
+    color: white;
+}
+
+.crown{
+    width: 70%;
+    height: 70%;
+}
